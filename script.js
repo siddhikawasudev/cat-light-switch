@@ -1,3 +1,4 @@
+alert("JS is working!");
 function switchOff() {
   document.getElementById("bulbImage").src =
     "https://d2clawv67efefq.cloudfront.net/ccbp-dynamic-webapps/bulb-go-off-img.png";
@@ -16,4 +17,5 @@ function switchOn() {
   document.getElementById("switchStatus").textContent = "Switched On";
   document.getElementById("offSwitch").style.backgroundColor = "#e12d39";
   document.getElementById("onSwitch").style.backgroundColor = "#cbd2d9";
+
 }
